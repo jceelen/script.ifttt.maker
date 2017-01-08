@@ -22,8 +22,7 @@ def trigger_event():
         str(event) + '/with/key/' + str(key)
 
     # Put optional values in JSON format
-    payload = json.dumps(
-        {"value1": str(value_1), "value2": str(value_2), "value3": str(value_3)})
+    payload = {'value1': value_1, 'value2': value_2, 'value3': value_3}
 
     # Do the request
     r = requests.post(url, data=payload)
