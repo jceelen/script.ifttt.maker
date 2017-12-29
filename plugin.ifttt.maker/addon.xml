@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.ifttt.maker" name="IFTTT Maker for Kodi" version="0.0.1" provider-name="Jasper Ceelen">
+<addon id="plugin.ifttt.maker" name="IFTTT Maker for Kodi" version="0.0.1" provider-name="Jasper Ceelen">
   <requires>
-    <import addon="xbmc.python" version="2.24.0" />
-    <import addon="script.module.requests" version="2.7.0"/>
+    <import addon="xbmc.python"                     version="2.24.0" />
+    <import addon="script.module.requests"          version="2.7.0"/>
   </requires>
-  <extension point="xbmc.python.script" library="addon.py">
+  <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>executable</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -17,7 +17,7 @@
     <forum></forum>
     <website></website>
     <email>ceelen@gmail.com</email>
-    <source>http://github.com/jceelen/script.ifttt</source>
+    <source>http://github.com/jceelen/script.ifttt.maker</source>
     <news></news>
     <assets>
         <icon>icon.png</icon>

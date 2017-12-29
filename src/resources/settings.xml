@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
     <category label="IFTTT">
-        <setting label="Your Key" type="text" id="key" default="Get yours at ifttt.com/maker"/>
-    </category>
-    <category label="Event 1">
-        <setting label="Eventname" type="text" id="event" default=""/>
+        <setting label="Your Key" type="text" id="key" default=""/>
+        <setting label="Eventname" type="text"   id="event" default=""/>
         <setting label="Value 1 (optional)" type="text" id="value_1" default="" />
         <setting label="Value 2 (optional)" type="text" id="value_2" default="" />
         <setting label="Value 3 (optional)" type="text" id="value_3" default="" />
